@@ -1,0 +1,37 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn{
+  background-color: #e9d6d6;
+}
+.input:focus{
+  border: solid rgb(202, 132, 132) 2px;
+  
+}
+.container{
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.container h1{
+  text-align: center;
+  margin-top: 20px;
+  font-weight:700;
+  font-size: xx-large;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 150px;
+
+}
+.listt{
+  flex: 1 0 calc(33.33% - 1px);
+  margin: 0;
+  padding: 0;
+}
